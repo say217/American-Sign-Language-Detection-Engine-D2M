@@ -1,4 +1,7 @@
-# Sign Language Detection using YOLOv8
+# Sign Language Detection using 
+
+<img width="1036" height="624" alt="image" src="https://github.com/user-attachments/assets/526e48ae-115d-4c5a-aca9-b1f6b11040db" />
+
 
 ## Overview
 
@@ -29,6 +32,10 @@ The model is trained on an annotated American Sign Language (ASL) alphabet datas
 Each annotation file contains normalized bounding box coordinates describing the location of the hand sign inside the image.
 
 ---
+| | |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/249e6166-68ee-417e-acce-968c6f9b8aca" width="100%" /> | <img src="https://github.com/user-attachments/assets/13a29601-f543-4311-a7e4-a9c196a4bb20" width="100%" /> |
+
 
 # Project Pipeline
 
@@ -59,6 +66,11 @@ This stage helps verify:
 - Bounding box placement
 
 ---
+| | |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/8ed53478-c49a-4c6f-a76d-9da505d408cd" width="100%" /> | <img src="https://github.com/user-attachments/assets/0f90079f-5071-430d-9845-d6d08b7620f4" width="100%" /> |
+| <img src="https://github.com/user-attachments/assets/30ac0366-7d65-4f00-9ad4-d69cb27e3f79" width="100%" /> | <img src="https://github.com/user-attachments/assets/745bff28-a7a0-47dc-a227-55f4c6b8d5f0" width="100%" /> |
+
 
 ### 3. Dataset Configuration Export
 
