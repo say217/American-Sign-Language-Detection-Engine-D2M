@@ -27,10 +27,6 @@ import mediapipe.python.solutions.hands as mp_hands
 import mediapipe.python.solutions.drawing_utils as mp_draw
 from ultralytics import YOLO
 
-
-# ============================================================
-# CONFIGURATION - tweak these without touching the pipeline
-# ============================================================
 class Config:
     # Model
     MODEL_RELATIVE_PATH = os.path.join(".model", "ALpha_SIGN_M89.pt")
