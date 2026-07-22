@@ -1,0 +1,17 @@
+# Store large folders using Git LFS
+.guide/** filter=lfs diff=lfs merge=lfs -text
+.model/** filter=lfs diff=lfs merge=lfs -text
+assets/** filter=lfs diff=lfs merge=lfs -text
+Results/** filter=lfs diff=lfs merge=lfs -text
+
+# Model files
+*.pt filter=lfs diff=lfs merge=lfs -text
+
+# Images
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
