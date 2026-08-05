@@ -6,8 +6,6 @@ Results/** filter=lfs diff=lfs merge=lfs -text
 
 # Model files
 *.pt filter=lfs diff=lfs merge=lfs -text
-
-# Images
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text

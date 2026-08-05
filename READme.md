@@ -10,7 +10,10 @@ This repository presents an end-to-end computer vision pipeline for real-time Am
 The repository includes the complete workflow for dataset preparation, visualization, preprocessing, model training, evaluation, and inference. The entire training pipeline was developed and executed on Kaggle using GPU acceleration.
 
 **Kaggle Notebook:**  
-https://www.kaggle.com/code/sayaksamanta/sign-language-detection
+ASL https://www.kaggle.com/code/sayaksamanta/sign-language-detection
+
+ISL https://www.kaggle.com/code/sayaksamanta/indian-sign-language-detction/notebook
+
 
 ---
 
@@ -53,7 +56,7 @@ The dataset is organized according to the Ultralytics YOLO directory structure. 
 The training script automatically validates these configurations before training begins.
 
 ---
-
+ 
 ### 2. Data Exploration & Visualization
 
 Before training, the repository visualizes randomly selected samples from the dataset. Bounding boxes are drawn using OpenCV, while Matplotlib is used to display labeled images for manual verification.
