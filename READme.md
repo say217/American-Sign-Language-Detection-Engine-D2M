@@ -1,6 +1,6 @@
 # Sign Language Detection using 
 
-<img width="1036" height="624" alt="image" src="https://github.com/user-attachments/assets/526e48ae-115d-4c5a-aca9-b1f6b11040db" />
+
 
 ![](https://i.postimg.cc/28xMsjKk/Screenshot-2026-08-14-221230.png)
 
@@ -56,8 +56,11 @@ The dataset is organized according to the Ultralytics YOLO directory structure. 
 
 The training script automatically validates these configurations before training begins.
 
+<img width="1036" height="624" alt="image" src="https://github.com/user-attachments/assets/526e48ae-115d-4c5a-aca9-b1f6b11040db" />
+
 ---
  
+
 ### 2. Data Exploration & Visualization
 
 Before training, the repository visualizes randomly selected samples from the dataset. Bounding boxes are drawn using OpenCV, while Matplotlib is used to display labeled images for manual verification.
