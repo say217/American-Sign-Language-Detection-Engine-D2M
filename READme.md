@@ -15,10 +15,15 @@ The project is implemented as an integrated web-based application using FastAPI,
 
 The repository also includes the complete workflow for dataset preparation, preprocessing, visualization, model training, evaluation, and inference for both ISL and ASL recognition. Model development and training were performed using GPU-accelerated environments, while the trained models are integrated into the FastAPI application for real-time deployment and inference.
 
+
+
+### 🇺🇸 American Sign Language (ASL) Model
+
+For real-time **American Sign Language (ASL)** recognition, our system uses the **YOLOv8 object detection framework** integrated with computer vision-based hand gesture processing. The model detects and classifies hand gestures representing ASL alphabet signs from live video streams. **MediaPipe Hands** is used for robust hand detection and landmark tracking, improving stability across different hand positions, orientations, and backgrounds. The trained model is integrated into the **FastAPI web application** for real-time inference and visualization.
+
 **Kaggle Notebook:**  
 ASL https://www.kaggle.com/code/sayaksamanta/sign-language-detection
 
-ISL https://www.kaggle.com/code/sayaksamanta/indian-sign-language-detction/notebook
 
 ---
 | American Sign Language|  American Sign Language detection |
@@ -31,6 +36,11 @@ ISL https://www.kaggle.com/code/sayaksamanta/indian-sign-language-detction/noteb
 To enable real-time interpretation of **Indian Sign Language (ISL)**, our system adopts a **Hybrid CNN–Transformer Detection Framework** that combines convolutional feature extraction with Transformer-based attention mechanisms for robust spatial and contextual representation of hand gestures.
 
 The model is designed to improve recognition across variations in **hand orientation, background, lighting conditions, and gesture appearance**, making it suitable for real-time sign language interpretation.
+
+**Kaggle Notebook:**  
+
+ISL https://www.kaggle.com/code/sayaksamanta/indian-sign-language-detction/notebook
+
 
 > ** Detailed ISL Model Architecture & Implementation:**  
 >  [View the Indian Sign Language Model Repository](https://github.com/say217/Indian-Sign-Language-Detection-Engine-D3M)
